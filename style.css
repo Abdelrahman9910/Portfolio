@@ -1,0 +1,576 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-family: sans-serif;
+}
+ul {
+  padding-top: 0.25rem;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+  margin: auto;
+  padding: 1rem;
+  border-bottom: 2px solid transparent;
+  font-size: 2rem;
+}
+a {
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+}
+a:hover {
+  color: grey;
+  border-bottom: 2px solid grey;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13rem 0rem 0rem 0rem;
+}
+.my_image {
+  display: inline-block;
+  width: 30%;
+  height: 30vw;
+  border-radius: 50%;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 1.5rem;
+}
+.introduction span {
+  font-size: xx-large;
+  padding: 0.25rem 0rem;
+}
+.my_name {
+  font-size: 50px !important;
+  color: #5e5e5e;
+}
+.introduction a img {
+  width: 3rem;
+  height: 3rem;
+}
+.header_btns {
+  margin-top: 1rem;
+}
+.header_btns a{
+  padding: 0;
+}
+.header_btns button {
+  background-color: transparent;
+  border: 1px solid #fb397d;
+  border-radius: 29px;
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header_btns button:hover {
+  background-color: #fb397d;
+  color: white;
+}
+.contact_btn {
+  background-color: #fb397d !important;
+  color: white;  
+
+}
+.contact_btn:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.introduction_btns {
+  border: transparent !important;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icons a {
+  padding: 0.25rem 0rem 0rem 0.25rem;
+}
+#About {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 4.6rem;
+}
+#About img {
+  width: 3rem;
+  height: 3rem;
+}
+.about_firstchild {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about_secchild {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+.about_head {
+  font-size: 70px;
+}
+.about_intro {
+  font-size: 40px;
+  margin-top: 1rem;
+}
+.my_role {
+  font-size: 30px;
+  margin-top: 0.75rem;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 30px;
+  width: 33%;
+}
+.Skills_child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 28vw;
+  flex-wrap: wrap;
+}
+.skills_grandchild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6%;
+  width: 40%;
+}
+.skills_grandchild img {
+  width: 2rem;
+  height: 2rem;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+}
+.education_first,
+.education_Sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 35px;
+  width: 40%;
+  height: 13vw;
+  gap: 14%;
+  padding: 0rem 1rem;
+}
+.education_first img,
+.education_Sec img {
+  width: 1rem;
+  height: 1rem;
+}
+.education_child {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.skill_head {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.lang {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.about_me {
+  text-align: center;
+  padding-top: 6rem;
+  font-size: 2rem;
+  width: 74%;
+}
+.edu{
+  font-size: 25px;
+}
+.about_secchild::after{
+  content: "Seeking a challenging position in a leading company that offers a good opportunity to utilize my skills and to undertake any training courses or development necessary to meet the position requirements";
+  display: none;
+} 
+
+#Project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.project_header{
+  color: #5e5e5e;
+  font-size: 50px;
+}
+.project_child{
+  font-size: 30px;
+}
+.colorlib{
+display: inline-block;
+width: 40%;
+height: 20vw;
+border-bottom: transparent !important;
+}
+.colorlib img{
+  width: 100%;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 35px;
+
+}
+#Contact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40%;
+  align-items: center;
+}
+#Contact img{
+width: 40px;
+height: 40px;
+}
+#Contact span{
+  font-size: 50px;
+  color: #5e5e5e;
+}
+
+.phone_container{
+  display: flex;
+  border: 1px solid rgb(92, 92, 92);
+  padding: 1rem;
+  border-radius: 30px;
+  margin-top: 1rem;
+}
+.mobile_number{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile_number a {
+  color: rgb(0, 0, 0);
+  border-bottom:transparent;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyrights{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+@media (min-width: 320px) and (max-width: 532px) {
+  ul {
+    padding-top: 0.75rem;
+    padding-left: 0.5rem;
+  }
+  li {
+    font-size: 12px;
+    padding: 0rem;
+  }
+  .about {
+    margin: 3rem 0rem 0rem 0rem;
+  }
+  .introduction {
+    text-align: center;
+    align-items: center;
+  }
+  .introduction span {
+    font-size: 12px;
+  }
+  .my_name {
+    font-size: 16px !important;
+  }
+  .header_btns {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+  .header_btns button {
+    padding: 0.2rem;
+    margin: 0.2rem;
+    cursor: pointer;
+    font-size: 8px;
+  }
+  .introduction a img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .about_head {
+    font-size: 30px;
+}
+.contact_btn {
+  padding: 3px 5px;
+}
+#About img{
+  width: 1rem;
+  height: 1rem;
+}
+.about_intro {
+  font-size: 20px;
+}
+.my_role {
+  font-size: 20px;
+}
+.skills {
+  justify-content: center;
+  width: 51%;
+  height: 81vw;
+}
+.lang {
+  font-size: 16px;
+  font-weight: bold;
+}
+.disapper{
+  display: none;
+}
+.lang {
+  padding: 0px;
+}
+.stats {
+  display: inline-block;
+  width: 76%;
+}
+.lang {
+  font-size: 12px;
+  padding: 0px;
+}
+.edu {
+  font-size: 16px;
+}
+.about_me {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1rem;
+  width: 90%;
+}
+.education_child {
+  flex-direction: column;
+}
+.education_first, .education_Sec {
+  flex-direction: column;
+  width: 93%;
+  height: 39vw;
+  margin-bottom: 0.5rem;
+  justify-content: space-evenly;
+}
+.about_secchild::after{
+  content: "Seeking a challenging position in a leading company that offers a good opportunity to utilize my skills and to undertake any training courses or development necessary to meet the position requirements";
+  width:80%;
+  position: absolute;
+  top: 80%;
+
+}
+.about_me{
+  display: none;
+}
+.University{
+  font-size: 10px;
+}
+.project_header{
+  color: #5e5e5e;
+  font-size: 30px;
+}
+.project_child{
+  font-size: 16px !important;
+}
+#Project {
+  margin-top: 2rem;
+}
+.colorlib {
+  width: 60%;
+  height: 20vw;
+}
+.colorlib img {
+  border-radius: 20px;
+}
+#Contact {
+  margin-top: 71%;
+}
+#Contact span {
+  font-size: 35px;
+}
+#Contact img {
+  width: 20px;
+  height: 20px;
+}
+.mobile_number a {
+  padding: 0rem 0.5rem;
+  font-size: 12px;
+}
+}
+@media (min-width: 375px){
+  .about_secchild::after{
+    content: "Seeking a challenging position in a leading company that offers a good opportunity to utilize my skills and to undertake any training courses or development necessary to meet the position requirements";
+    width:80%;
+    position: absolute;
+    top: 85%;
+  }  
+  .mobile_number a {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 425px) and (max-width:450px){
+  .about_secchild::after{
+    content: "Seeking a challenging position in a leading company that offers a good opportunity to utilize my skills and to undertake any training courses or development necessary to meet the position requirements";
+    width:80%;
+    position: absolute;
+    top: 90%;
+  }  
+
+#Project {
+  margin-top: 2rem;
+}
+.project_header{
+  color: #5e5e5e;
+  font-size: 30px;
+}
+.project_child{
+  font-size: 16px !important;
+}
+}
+@media (min-width:768px) and (max-width:900px){
+  .about_head {
+    font-size: 40px;
+}
+.about_intro {
+  font-size: 30px;
+  margin-top: 1rem;
+}
+.lang {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.skills {
+  width: 48%;
+  height: 40vw;
+}
+.education_child {
+  align-items: flex-start;
+}
+.edu {
+  font-size: 16px;
+  font-weight: bold;
+}
+.education_first, .education_Sec {
+  justify-content: flex-start;
+  width: 44%;
+  height: 25vw;
+  gap: 11%;
+  padding-top: 15px;
+}
+#About img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.University{
+  font-size: 10px;
+}
+.about_me {
+  padding-top: 1rem;
+  font-size: 0.75rem;
+}
+.about_secchild::after{
+  content: "Seeking a challenging position in a leading company that offers a good opportunity to utilize my skills and to undertake any training courses or development necessary to meet the position requirements";
+  display: none;
+} 
+#Contact span {
+  font-size: 40px;
+}
+#Contact img {
+  width: 25px;
+  height: 25px;
+}
+.mobile_number a {
+  font-size: 1rem;
+  padding: 0.75rem;
+}
+}
+@media (min-width:1000px) and (max-width:1430px)
+{
+  .about_head {
+    font-size: 50px;
+}
+.about_intro {
+  font-size: 30px;
+}
+.my_role {
+  font-size: 25px;
+}
+.skills {
+  width: 41%;
+  height: 38vw;
+}
+.education {
+  width: 44%;
+}
+.about_secchild {
+  justify-content: space-evenly;
+}
+.education_first, .education_Sec {
+  width: 47%;
+  height: 26vw;
+  gap: 14%;
+  padding-top: 1rem;
+  justify-content: flex-start;
+}
+.edu_custome{
+    padding-top: 1rem;
+
+}
+.about_me {
+  padding-top: 2rem;
+  font-size: 1rem;
+}
+.about_secchild::after{
+  content: "Seeking a challenging position in a leading company that offers a good opportunity to utilize my skills and to undertake any training courses or development necessary to meet the position requirements";
+  display: none;
+} 
+}
+@media (min-width:1440px) and (max-width:1800px){
+.about_me {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  width: 81%;
+}
+.education_first, .education_Sec {
+  height: 16vw;
+  justify-content: flex-start;
+}
+.about_secchild::after{
+  content: "Seeking a challenging position in a leading company that offers a good opportunity to utilize my skills and to undertake any training courses or development necessary to meet the position requirements";
+  display: none;
+} 
+}
+@media (min-width:1930px){
+
+}
